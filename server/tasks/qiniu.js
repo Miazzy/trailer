@@ -25,14 +25,16 @@ const uploadToQiniu = async (url, key) => {
 
   ; (async () => {
     let movies = [{
-      video: 'http://vt1.doubanio.com/201805091712/0feca6b620df8baa8ab1917de87ccef5/view/movie / M / 402290187.mp4',
-      doubanId: '4920389',
-      poster: 'https://img1.doubanio.com/view/photo/l_ratio_poster/public/p2497576479.jpg',
-      cover: 'https://img3.doubanio.com/img/trailer/medium/2517604390.jpg?'
+      video: 'http://vt1.doubanio.com/201712282244/a97c1e7cd9025478b43ebc222bab892e/view/movie/M/302190491.mp4',
+      doubanId: '26739551',
+      poster: 'https://img3.doubanio.com/view/photo/l_ratio_poster/public/p2506258944.jpg',
+      cover: 'https://img1.doubanio.com/img/trailer/medium/2493603388.jpg?'
     }]
 
-    movies.map(async movie => {
-      if (movie.video && !movie.key) {
+    for (let i = 0; i < [movies[0]].length; i++) {
+      let movie = movies[i]
+
+      if (movie.video && !movie.videoKey) {
         try {
           console.log('开始传 video')
           let videoData = await uploadToQiniu(movie.video, nanoid() + '.mp4')
@@ -56,5 +58,5 @@ const uploadToQiniu = async (url, key) => {
           console.log(err)
         }
       }
-    })
+    }
   })()

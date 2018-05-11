@@ -7,6 +7,7 @@ const movieSchema = new Schema({
     unique: true,
     type: String
   },
+
   category: [{
     type: ObjectId,
     ref: 'Category'

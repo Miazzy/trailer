@@ -12,7 +12,7 @@ const categorySchema = new Schema({
     ref: 'Movie'
   }],
   meta: {
-    createAt: {
+    createdAt: {
       type: Date,
       default: Date.now()
     },

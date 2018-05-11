@@ -10,16 +10,16 @@ const userSchema = new Schema({
   username: {
     unique: true,
     required: true,
-    type: String
+    type: String,
   },
   email: {
     unique: true,
     required: true,
-    type: String
+    type: String,
   },
   password: {
     unique: true,
-    type: String
+    type: String,
   },
   loginAttempts: {
     type: Number,
@@ -49,6 +49,7 @@ userSchema.pre('save', function (next) {
   } else {
     this.meta.updatedAt = Date.now()
   }
+
   next()
 })
 

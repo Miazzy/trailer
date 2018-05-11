@@ -4,6 +4,7 @@
   "description": "Koa2框架构建预告片网站",
   "main": "index.js",
   "scripts": {
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,16 +14,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "bcryptjs": "^1.0.3",
     "glob": "^7.1.2",
     "koa": "^2.5.1",
     "koa-views": "^6.1.4",
-    "mongoose": "^5.0.17",
+    "mongoose": "^5.0.1",
     "nanoid": "^1.0.2",
     "pug": "^2.0.3",
     "puppeteer": "^1.3.0",
     "qiniu": "^7.1.3",
-    "request": "^2.85.0",
+    "request": "^2.83.0",
     "request-promise-native": "^1.0.5"
   },
   "devDependencies": {

@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 export default (loadComponent, placeholder = '正在加载中') => {
-  return class AsyncComponent extends React.Component {
+  return class AsyncComponent extends Component {
     unmount = false
 
     constructor() {

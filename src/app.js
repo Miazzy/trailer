@@ -1,10 +1,13 @@
 import React from 'react'
-import { Route, Switch } from 'react-router-dom'
+import {
+  Route,
+  Switch
+} from 'react-router-dom'
 import routes from './routes'
 import 'antd/dist/antd.css'
 import './assets/common.sass'
 
-export default () => {
+export default () => (
   <Switch>
     {
       routes.map(({ name, path, exact = true, component }) => (
@@ -12,4 +15,4 @@ export default () => {
       ))
     }
   </Switch>
-}
+)

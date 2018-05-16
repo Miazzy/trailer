@@ -74,7 +74,6 @@ export default class Detail extends React.Component {
               <TabPane tab='关于本片' key='1'>
                 <h1>{movie.title}</h1>
                 <dl>
-                  <dt>豆瓣评分：<Badge count={movie.rate} style={{ backgroundColor: '#52c41a' }} /> 分</dt>
                   <dt>电影分类：{movie.tags && movie.tags.join(' ')}</dt>
                   <dt>更新时间：{moment(movie.meta.createdAt).fromNow()}</dt>
                   <dt>影片介绍：</dt>

@@ -1,0 +1,23 @@
+apps:
+  - script: start.js
+    name: 'Koa2'
+    env:
+      COMMON_VARIABLE: true
+    env_production:
+      NODE_ENV: production
+deploy:
+  production:
+    user: minjie
+    host:
+      - 47.94.154.53
+    port: 22
+    ref: origin/master
+    repo:
+      git@gitee.com:Well-to-do/trailer.git
+    path:
+      /product/koa2/
+    ssh_options: StrictHostKeyChecking=no
+    pre-deploy: git fetch --all
+    post-deploy: 'npm install && npm run build && pm2 startOrRestart deploy.yaml --env production'
+    env:
+      NODE_ENV: production

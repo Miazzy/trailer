@@ -7,7 +7,8 @@ import 'moment/locale/zh-cn'
 moment.locale('zh-cn')
 const TabPane = Tabs.TabPane
 const DPlayer = window.DPlayer
-const site = 'http://p8gf5otvc.bkt.clouddn.com/'
+// const site = 'http://p8gf5otvc.bkt.clouddn.com/'
+const site = 'http://video.jiemart.top/'
 
 const callback = (key) => {
   console.log(key)

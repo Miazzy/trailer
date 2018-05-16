@@ -1,0 +1,308 @@
+{ 
+    "_id" : ObjectId("5af4f873101eff2ff8f90cbf"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T01:57:07.154+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.390+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f843c97f28271428fa09"), 
+        ObjectId("5af4f843c97f28271428fa0a"), 
+        ObjectId("5af4f844c97f28271428fa13"), 
+        ObjectId("5af8fccf94a5c52e10e9aab3"), 
+        ObjectId("5af8fccf94a5c52e10e9aab9"), 
+        ObjectId("5af8fccf94a5c52e10e9aabc"), 
+        ObjectId("5afbfe6928267b2f0c31f264"), 
+        ObjectId("5afbfe6928267b2f0c31f26a"), 
+        ObjectId("5afbfe6928267b2f0c31f26d"), 
+        ObjectId("5afc00699e67ce1ba489e217"), 
+        ObjectId("5afc00699e67ce1ba489e218"), 
+        ObjectId("5afc00699e67ce1ba489e222")
+    ], 
+    "name" : "喜剧", 
+    "__v" : NumberInt(11)
+}
+{ 
+    "_id" : ObjectId("5af4f9d34af39a1b7415b675"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:02:59.439+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.394+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f843c97f28271428fa09"), 
+        ObjectId("5af4f843c97f28271428fa0a"), 
+        ObjectId("5af4f843c97f28271428fa0c"), 
+        ObjectId("5af4f844c97f28271428fa13"), 
+        ObjectId("5af4f844c97f28271428fa17"), 
+        ObjectId("5af8fccf94a5c52e10e9aab5"), 
+        ObjectId("5af8fccf94a5c52e10e9aab9"), 
+        ObjectId("5af8fccf94a5c52e10e9aabc"), 
+        ObjectId("5af8fccf94a5c52e10e9aabd"), 
+        ObjectId("5afbfe6928267b2f0c31f265"), 
+        ObjectId("5afbfe6928267b2f0c31f26a"), 
+        ObjectId("5afbfe6928267b2f0c31f26d"), 
+        ObjectId("5afbfe6928267b2f0c31f26b"), 
+        ObjectId("5afc00699e67ce1ba489e218"), 
+        ObjectId("5afc00699e67ce1ba489e219"), 
+        ObjectId("5afc00699e67ce1ba489e21d"), 
+        ObjectId("5afc00699e67ce1ba489e222")
+    ], 
+    "name" : "爱情", 
+    "__v" : NumberInt(16)
+}
+{ 
+    "_id" : ObjectId("5af4f9d34af39a1b7415b676"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:02:59.813+0000"), 
+        "updatedAt" : ISODate("2018-05-14T03:05:20.930+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f843c97f28271428fa0b"), 
+        ObjectId("5af4f844c97f28271428fa0d"), 
+        ObjectId("5af4f844c97f28271428fa0f"), 
+        ObjectId("5af4f844c97f28271428fa1b"), 
+        ObjectId("5af8fccf94a5c52e10e9aab6")
+    ], 
+    "name" : "真人秀", 
+    "__v" : NumberInt(4)
+}
+{ 
+    "_id" : ObjectId("5af4f9d44af39a1b7415b677"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:03:00.414+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.911+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f844c97f28271428fa0e"), 
+        ObjectId("5af4f844c97f28271428fa10"), 
+        ObjectId("5af4f844c97f28271428fa11"), 
+        ObjectId("5af4f844c97f28271428fa15"), 
+        ObjectId("5af4f844c97f28271428fa14"), 
+        ObjectId("5af4f844c97f28271428fa17"), 
+        ObjectId("5af4f844c97f28271428fa18"), 
+        ObjectId("5af4f844c97f28271428fa19"), 
+        ObjectId("5af4f844c97f28271428fa1a"), 
+        ObjectId("5af8fccf94a5c52e10e9aaba"), 
+        ObjectId("5af8fccf94a5c52e10e9aab8"), 
+        ObjectId("5af8fccf94a5c52e10e9aabf"), 
+        ObjectId("5af8fccf94a5c52e10e9aabd"), 
+        ObjectId("5af8fccf94a5c52e10e9aac0"), 
+        ObjectId("5af8fccf94a5c52e10e9aabe"), 
+        ObjectId("5af8fccf94a5c52e10e9aac2"), 
+        ObjectId("5af8fccf94a5c52e10e9aabb"), 
+        ObjectId("5afbfe6928267b2f0c31f262"), 
+        ObjectId("5afbfe6928267b2f0c31f263"), 
+        ObjectId("5afbfe6928267b2f0c31f26c"), 
+        ObjectId("5afc00699e67ce1ba489e21a"), 
+        ObjectId("5afc00699e67ce1ba489e21b"), 
+        ObjectId("5afc00699e67ce1ba489e221")
+    ], 
+    "name" : "剧情", 
+    "__v" : NumberInt(22)
+}
+{ 
+    "_id" : ObjectId("5af4f9d44af39a1b7415b678"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:03:00.712+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.914+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f844c97f28271428fa10"), 
+        ObjectId("5af4f844c97f28271428fa14"), 
+        ObjectId("5af8fccf94a5c52e10e9aaba"), 
+        ObjectId("5af8fccf94a5c52e10e9aab8"), 
+        ObjectId("5af8fccf94a5c52e10e9aab4"), 
+        ObjectId("5afbfe6928267b2f0c31f262"), 
+        ObjectId("5afbfe6928267b2f0c31f263"), 
+        ObjectId("5afbfe6928267b2f0c31f268"), 
+        ObjectId("5afbfe6928267b2f0c31f26c"), 
+        ObjectId("5afc00699e67ce1ba489e21a"), 
+        ObjectId("5afc00699e67ce1ba489e21b"), 
+        ObjectId("5afc00699e67ce1ba489e21c"), 
+        ObjectId("5afc00699e67ce1ba489e221")
+    ], 
+    "name" : "犯罪", 
+    "__v" : NumberInt(12)
+}
+{ 
+    "_id" : ObjectId("5af4f9d44af39a1b7415b679"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:03:00.714+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.917+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f844c97f28271428fa10"), 
+        ObjectId("5af4f844c97f28271428fa15"), 
+        ObjectId("5af4f844c97f28271428fa19"), 
+        ObjectId("5af4f844c97f28271428fa1a"), 
+        ObjectId("5af8fccf94a5c52e10e9aab7"), 
+        ObjectId("5af8fccf94a5c52e10e9aab8"), 
+        ObjectId("5af8fccf94a5c52e10e9aabf"), 
+        ObjectId("5af8fccf94a5c52e10e9aab4"), 
+        ObjectId("5af8fccf94a5c52e10e9aac2"), 
+        ObjectId("5af8fccf94a5c52e10e9aabb"), 
+        ObjectId("5afbfe6928267b2f0c31f262"), 
+        ObjectId("5afbfe6928267b2f0c31f263"), 
+        ObjectId("5afbfe6928267b2f0c31f268"), 
+        ObjectId("5afbfe6928267b2f0c31f26f"), 
+        ObjectId("5afbfe6928267b2f0c31f26c"), 
+        ObjectId("5afc00699e67ce1ba489e21a"), 
+        ObjectId("5afc00699e67ce1ba489e21b"), 
+        ObjectId("5afc00699e67ce1ba489e220"), 
+        ObjectId("5afc00699e67ce1ba489e21c"), 
+        ObjectId("5afc00699e67ce1ba489e221")
+    ], 
+    "name" : "悬疑", 
+    "__v" : NumberInt(19)
+}
+{ 
+    "_id" : ObjectId("5af4f9d44af39a1b7415b67a"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:03:00.929+0000"), 
+        "updatedAt" : ISODate("2018-05-14T03:05:23.410+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f844c97f28271428fa11"), 
+        ObjectId("5af4f844c97f28271428fa12"), 
+        ObjectId("5af8fccf94a5c52e10e9aac0")
+    ], 
+    "name" : "动画", 
+    "__v" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("5af4f9d54af39a1b7415b67b"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:03:01.026+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.713+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f844c97f28271428fa12"), 
+        ObjectId("5af4f844c97f28271428fa14"), 
+        ObjectId("5af4f844c97f28271428fa16"), 
+        ObjectId("5af8fccf94a5c52e10e9aaba"), 
+        ObjectId("5af8fccf94a5c52e10e9aab4"), 
+        ObjectId("5afbfe6928267b2f0c31f268"), 
+        ObjectId("5afc00699e67ce1ba489e21c")
+    ], 
+    "name" : "动作", 
+    "__v" : NumberInt(6)
+}
+{ 
+    "_id" : ObjectId("5af4f9d54af39a1b7415b67c"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:03:01.180+0000"), 
+        "updatedAt" : ISODate("2018-05-11T02:03:01.180+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f844c97f28271428fa13")
+    ], 
+    "name" : "古装", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5af4f9d54af39a1b7415b67d"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:03:01.333+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.496+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f844c97f28271428fa15"), 
+        ObjectId("5af4f844c97f28271428fa16"), 
+        ObjectId("5af4f844c97f28271428fa18"), 
+        ObjectId("5af4f844c97f28271428fa19"), 
+        ObjectId("5af8fccf94a5c52e10e9aab7"), 
+        ObjectId("5afbfe6928267b2f0c31f26f"), 
+        ObjectId("5afbfe6928267b2f0c31f26e"), 
+        ObjectId("5afc00699e67ce1ba489e220")
+    ], 
+    "name" : "科幻", 
+    "__v" : NumberInt(7)
+}
+{ 
+    "_id" : ObjectId("5af4f9d54af39a1b7415b67e"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:03:01.793+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.181+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f844c97f28271428fa16"), 
+        ObjectId("5af8fccf94a5c52e10e9aab5"), 
+        ObjectId("5afbfe6928267b2f0c31f265"), 
+        ObjectId("5afc00699e67ce1ba489e21d")
+    ], 
+    "name" : "奇幻", 
+    "__v" : NumberInt(3)
+}
+{ 
+    "_id" : ObjectId("5af4f9d54af39a1b7415b67f"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:03:01.795+0000"), 
+        "updatedAt" : ISODate("2018-05-11T02:03:02.623+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f844c97f28271428fa16"), 
+        ObjectId("5af4f844c97f28271428fa19")
+    ], 
+    "name" : "冒险", 
+    "__v" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("5af4f9d74af39a1b7415b680"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T02:03:03.101+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.610+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af4f844c97f28271428fa1c"), 
+        ObjectId("5af8fccf94a5c52e10e9aac1"), 
+        ObjectId("5afbfe6928267b2f0c31f266"), 
+        ObjectId("5afbfe6928267b2f0c31f267"), 
+        ObjectId("5afc00699e67ce1ba489e21e"), 
+        ObjectId("5afc00699e67ce1ba489e21f")
+    ], 
+    "name" : "纪录片", 
+    "__v" : NumberInt(5)
+}
+{ 
+    "_id" : ObjectId("5af8fcf11d5c4f154c0b6cde"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-14T03:05:21.864+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.503+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af8fccf94a5c52e10e9aab7"), 
+        ObjectId("5afbfe6928267b2f0c31f26f"), 
+        ObjectId("5afbfe6928267b2f0c31f269"), 
+        ObjectId("5afbfe6928267b2f0c31f26e"), 
+        ObjectId("5afc00699e67ce1ba489e220")
+    ], 
+    "name" : "惊悚", 
+    "__v" : NumberInt(4)
+}
+{ 
+    "_id" : ObjectId("5af8fcf11d5c4f154c0b6cdf"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-14T03:05:21.902+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:11.506+0000")
+    }, 
+    "movies" : [
+        ObjectId("5af8fccf94a5c52e10e9aab7"), 
+        ObjectId("5afbfe6928267b2f0c31f26f"), 
+        ObjectId("5afc00699e67ce1ba489e220")
+    ], 
+    "name" : "恐怖", 
+    "__v" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("5afbfed6f2a4f3143cca9d11"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-16T09:50:14.613+0000"), 
+        "updatedAt" : ISODate("2018-05-16T09:58:10.585+0000")
+    }, 
+    "movies" : [
+        ObjectId("5afbfe6928267b2f0c31f264"), 
+        ObjectId("5afbfe6928267b2f0c31f270"), 
+        ObjectId("5afc00699e67ce1ba489e217")
+    ], 
+    "name" : "脱口秀", 
+    "__v" : NumberInt(2)
+}

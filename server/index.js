@@ -4,7 +4,7 @@ const views = require('koa-views')
 const { resolve } = require('path')
 const { connect, initSchemas, initAdmin } = require('./database/init');
 const R = require('ramda')
-const MIDDLEWARES = ['common', 'router', 'parcel']
+const MIDDLEWARES = ['common', 'router']
 
 const useMiddlewares = (app) => {
     R.map(
@@ -29,5 +29,5 @@ const useMiddlewares = (app) => {
         const app = new Koa()
         await useMiddlewares(app)
 
-        app.listen(3000)
+        app.listen(4455)
     })()

@@ -12,7 +12,8 @@ import {
 import { Link } from 'react-router-dom'
 import 'moment/locale/zh-cn'
 
-const site = 'http://p8gf5otvc.bkt.clouddn.com/'
+// const site = 'http://p8gf5otvc.bkt.clouddn.com/'
+const site = 'http://video.jiemart.top/'
 const Meta = Card.Meta
 
 moment.locale('zh-cn')

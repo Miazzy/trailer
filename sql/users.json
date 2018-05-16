@@ -1,0 +1,12 @@
+{ 
+    "_id" : ObjectId("5af5200f22640805b86f3afb"), 
+    "meta" : {
+        "createdAt" : ISODate("2018-05-11T04:46:07.156+0000"), 
+        "updatedAt" : ISODate("2018-05-11T04:46:07.156+0000")
+    }, 
+    "loginAttempts" : NumberInt(0), 
+    "username" : "IMOOC", 
+    "email" : "koa2@imooc.com", 
+    "password" : "$2a$10$GoDtFSfX3xfDmZvOL3ziC.3Aok2gQJLX7tiY.36MnePNZ46OZQnv.", 
+    "__v" : NumberInt(0)
+}

@@ -15,7 +15,7 @@ deploy:
     repo:
       git@gitee.com:Well-to-do/trailer.git
     path:
-      /product/koa2/
+      /www/koa2/production
     ssh_options: StrictHostKeyChecking=no
     pre-deploy: git fetch --all
     post-deploy: 'npm install && npm run build && pm2 startOrRestart deploy.yaml --env production'

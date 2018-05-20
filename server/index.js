@@ -4,7 +4,7 @@ const views = require('koa-views')
 const { resolve } = require('path')
 const { connect, initSchemas, initAdmin } = require('./database/init');
 const R = require('ramda')
-const MIDDLEWARES = ['common', 'router']
+const MIDDLEWARES = ['common', 'router','parcel']
 
 const useMiddlewares = (app) => {
     R.map(

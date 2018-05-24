@@ -7,9 +7,9 @@ apps:
       NODE_ENV: production
 deploy:
   production:
-    user: minjie
+    user: root
     host:
-      - 47.94.154.53
+      - 47.96.107.166
     port: 22
     ref: origin/master
     repo:
